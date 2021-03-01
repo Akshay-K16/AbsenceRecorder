@@ -13,6 +13,10 @@
 		38873D7F25ED6ED4004F2865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38873D7E25ED6ED4004F2865 /* Preview Assets.xcassets */; };
 		38873D8A25ED6ED4004F2865 /* AbsenceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873D8925ED6ED4004F2865 /* AbsenceRecorderTests.swift */; };
 		38873D9525ED6ED4004F2865 /* AbsenceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873D9425ED6ED4004F2865 /* AbsenceRecorderUITests.swift */; };
+		38873DA825ED71F5004F2865 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873DA725ED71F5004F2865 /* Student.swift */; };
+		38873DA925ED71F5004F2865 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873DA725ED71F5004F2865 /* Student.swift */; };
+		38873DB125ED725A004F2865 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873DB025ED725A004F2865 /* Division.swift */; };
+		38873DB225ED725A004F2865 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38873DB025ED725A004F2865 /* Division.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		38873D9025ED6ED4004F2865 /* AbsenceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38873D9425ED6ED4004F2865 /* AbsenceRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITests.swift; sourceTree = "<group>"; };
 		38873D9625ED6ED4004F2865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38873DA725ED71F5004F2865 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		38873DB025ED725A004F2865 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,8 @@
 		38873DA525ED7191004F2865 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				38873DA725ED71F5004F2865 /* Student.swift */,
+				38873DB025ED725A004F2865 /* Division.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38873D7A25ED6ED3004F2865 /* ContentView.swift in Sources */,
+				38873DA825ED71F5004F2865 /* Student.swift in Sources */,
+				38873DB125ED725A004F2865 /* Division.swift in Sources */,
 				38873D7825ED6ED3004F2865 /* AbsenceRecorderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38873D8A25ED6ED4004F2865 /* AbsenceRecorderTests.swift in Sources */,
+				38873DA925ED71F5004F2865 /* Student.swift in Sources */,
+				38873DB225ED725A004F2865 /* Division.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
